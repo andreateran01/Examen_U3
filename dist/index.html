@@ -3,17 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./public/img/favico.png" type="image/x-icon">
-    <title>Examen Unidad 4</title>
+    <title>Examen Unidad 3</title>
 </head>
 <body>
     <div class="container mt-4">
         <div class="row justify-content-center">
             <div class="col text-center">
-                <h1 class="text-danger">Plantilla Examen Unidad 4</h1>
+                <h1 class="text-primary">EXPRESIONES REGULARES</h1>
             </div>
         </div>
     </div>    
+
+    <div class="container my-4" style="max-width: 600px;">
+      <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white fw-bold">
+          Validador de expresiones regulares 
+        </div>
+        <div class="card-body">
+ 
+          <div class="mb-3">
+            <label for="expresionRegular" class="form-label fw-bold">Expresion regular:</label>
+            <div class="input-group">
+              <span class="input-group-text">/</span>
+              <input type="text" id="expresionRegular" class="form-control" placeholder="Ej: \d+ o [a-z]+">
+              <span class="input-group-text">/g</span>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="textoEvaluar" class="form-label fw-bold">Texto a evaluar:</label>
+            <textarea id="textoEvaluar" class="form-control" rows="3" placeholder="Escribe tu texto aquí..."></textarea>
+          </div>
+
+          <div class="d-flex gap-2 mb-4">
+            <button id="btnComparar" class="btn btn-danger">Comparar</button>
+            <button id="btnBorrar" class="btn btn-success">Limpiar</button>
+          </div>
+
+          <div id="seccionResultado" class="d-none">
+            <div id="alerta" class="alert fw-bold" role="alert"></div>
+            <label class="form-label fw-bold">Coincidencias resaltadas:</label>
+            <div id="resultado" class="p-3 border rounded"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
     <script src="./bundle.js"></script>
 </body>
 </html>
