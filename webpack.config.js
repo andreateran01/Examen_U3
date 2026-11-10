@@ -4,11 +4,11 @@ module.exports = {
   mode: 'development', // Modo desarrollo
   entry: './src/index.js', // Archivo de entrada
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'bundle.js', // Archivo de salida
   },
   devServer: {
-    static: './dist', // Carpeta donde lanzara los archivos
+    static: './docs', // Carpeta donde lanzara los archivos
     port: 3000, // Puerto del servidor de desarrollo
     open: true, // Abre el navegador automáticamente
     hot: true, // Habilita recarga en vivo
