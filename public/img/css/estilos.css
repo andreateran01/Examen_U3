@@ -1,0 +1,92 @@
+body {
+    background-color: #f7f4f0;
+    color: #4a4238;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+h1.text-primary {
+    color: #8c6d58 !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.card {
+    border: 1px solid #e2d9cf !important;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.card-header.bg-primary {
+    background-color: #cbb6a3 !important;
+    color: #4a3e35 !important;
+    border-bottom: 1px solid #bda895;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.form-label {
+    color: #5c4e43;
+}
+
+.form-control {
+    background-color: #fcfbfa;
+    border: 1px solid #dcd3c9 !important;
+    color: #4a4238;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    background-color: #ffffff;
+    border-color: #bfa58e !important;
+    box-shadow: 0 0 0 0.25rem rgba(191, 165, 142, 0.25) !important;
+}
+
+.form-control::placeholder {
+    color: #a89f91;
+}
+
+.input-group-text {
+    background-color: #ede5dc !important;
+    border: 1px solid #dcd3c9 !important;
+    color: #706253;
+    font-weight: bold;
+}
+
+.btn-danger, #btnComparar {
+    background-color: #b86b53 !important;
+    border-color: #b86b53 !important;
+    color: #ffffff !important;
+    border-radius: 6px;
+    padding: 8px 18px;
+}
+
+.btn-danger:hover, #btnComparar:hover {
+    background-color: #9e5944 !important;
+    border-color: #9e5944 !important;
+}
+
+.btn-success, #btnBorrar {
+    background-color: #7a846c !important;
+    border-color: #7a846c !important;
+    color: #ffffff !important;
+    border-radius: 6px;
+    padding: 8px 18px;
+}
+
+.btn-success:hover, #btnBorrar:hover {
+    background-color: #646d57 !important;
+    border-color: #646d57 !important;
+}
+
+#resultado {
+    background-color: #faf8f5;
+    border-color: #e2d9cf !important;
+    min-height: 80px;
+}
+
+mark, .highlight {
+    background-color: #e6c594;
+    color: #3b2d1d;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
